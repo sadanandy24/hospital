@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Environment & secrets
+.env
+*.env
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Seed data
+seed/
+
+# Migrations (optional - if auto-generated)
+**/migrations/*.pyc
+**/migrations/__pycache__/
